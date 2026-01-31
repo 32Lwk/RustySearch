@@ -1,4 +1,4 @@
-//! Mini search engine: crawl, index, serve.
+//! RustySearch: crawl, index, serve.
 
 mod crawler;
 mod index;

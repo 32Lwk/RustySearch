@@ -1,4 +1,4 @@
-# Mini Search Engine
+# RustySearch
 
 Rust で作るミニ検索エンジン。クロール → 転置インデックス構築 → 検索 API（TF-IDF ランキング付き）を提供します。
 

@@ -43,7 +43,7 @@ pub async fn index_page() -> axum::response::Html<&'static str> {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Search Engine</title>
+  <title>RustySearch</title>
   <style>
     body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
     h1 { font-size: 1.5rem; }
@@ -57,7 +57,7 @@ pub async fn index_page() -> axum::response::Html<&'static str> {
   </style>
 </head>
 <body>
-  <h1>Mini Search Engine</h1>
+  <h1>RustySearch</h1>
   <form id="form">
     <input type="search" name="q" id="q" placeholder="検索語を入力" autofocus>
     <button type="submit">検索</button>
